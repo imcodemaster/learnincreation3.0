@@ -66,7 +66,89 @@
 			
 			gtag('config', 'G-DJB91KYQYD');
 			</script>
+		<style>
+			.like-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0;
+    font-family: Arial, sans-serif;
+}
 
+.like-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 30px;
+    background: #fff;
+    color: #555;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.like-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+.like-icon {
+    font-size: 21px;
+    display: inline-block;
+    transition: transform 0.25s ease;
+}
+
+/* Liked state */
+.like-button.liked {
+    background: #e8f1ff;
+    border-color: #1877f2;
+    color: #1877f2;
+}
+
+.like-button.liked .like-icon {
+    transform: scale(1.25);
+}
+
+/* Click animation */
+.like-button.animate .like-icon {
+    animation: likePop 0.45s ease;
+}
+
+@keyframes likePop {
+    0% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(1.5) rotate(-10deg);
+    }
+
+    70% {
+        transform: scale(0.9) rotate(8deg);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+/* Small message */
+.like-message {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #777;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.like-message.show {
+    opacity: 1;
+}
+		</style>
 		
 </head>
 <body>
@@ -260,7 +342,18 @@
 							<a href="types-of-network.html"><button class = 'btn btn-primary shadow text-white p-2 m-2'>Next Lesson</button></a>
 								</p>
 
+<!-- LIKE BUTTON-->
+	<div class="like-container">
+		Is this article helpful ?
+		<br><br>
+    <button id="likeBtn" class="like-button" aria-label="Like this lesson">
+        <span class="like-icon">👍</span>
+        <span id="likeText">Like</span>
+    </button>
 
+    <span id="likeMessage" class="like-message"></span>
+</div>
+<!-- LIKE BUTTON end-->
 
 						</div>
 						<!-- <div class="share_sp">
@@ -521,5 +614,73 @@ function googleTranslateElementInit() {
 </script>
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<script>
+const likeBtn = document.getElementById("likeBtn");
+const likeText = document.getElementById("likeText");
+const likeMessage = document.getElementById("likeMessage");
+
+/*
+   Give every lesson a unique ID.
+   Change this on every course/lesson page.
+*/
+const lessonId = "how-data-travel";
+
+const storageKey = "learnincreation-liked-" + lessonId;
+
+// Check previous like
+if (localStorage.getItem(storageKey) === "true") {
+    likeBtn.classList.add("liked");
+    likeText.textContent = "Liked";
+}
+
+likeBtn.addEventListener("click", function () {
+
+    const alreadyLiked = localStorage.getItem(storageKey) === "true";
+
+    if (alreadyLiked) {
+
+        // Unlike
+        localStorage.removeItem(storageKey);
+
+        likeBtn.classList.remove("liked");
+        likeText.textContent = "Like";
+
+        showMessage("Removed Like");
+
+    } else {
+
+        // Like
+        localStorage.setItem(storageKey, "true");
+
+        likeBtn.classList.add("liked");
+        likeText.textContent = "Liked";
+
+        // Animation
+        likeBtn.classList.remove("animate");
+
+        // Restart animation
+        void likeBtn.offsetWidth;
+
+        likeBtn.classList.add("animate");
+
+        showMessage("Thanks for your feedback! ❤️");
+    }
+});
+
+
+function showMessage(message) {
+
+    likeMessage.textContent = message;
+    likeMessage.classList.add("show");
+
+    setTimeout(function () {
+        likeMessage.classList.remove("show");
+    }, 1800);
+}
+</script>
+
+
 </body>
 </html>
