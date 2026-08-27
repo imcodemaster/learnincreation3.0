@@ -541,6 +541,12 @@ const pages = [
         keywords: "line spacing in ms word, double space in word, single line spacing word, what is line spacing, ms word advanced course, line spacing tutorial"
     },
 
+      {
+        title: " MS Word Advanced Course – Lesson 6: First Line Indent",
+        url: "first-line-indent.html",
+        description: "Learn how to apply a First Line Indent to paragraphs in MS Word for professional document formatting. Lesson 6 of the Advanced Word Course.",
+        keywords: "first line indent in ms word, indent first line paragraph, ms word indent tutorial, paragraph indent word, ms word advanced course"
+    },
 
     // =====================================================
     // MICROSOFT EXCEL
