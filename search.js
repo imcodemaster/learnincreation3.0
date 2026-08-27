@@ -520,6 +520,12 @@ const pages = [
         keywords: "working with paragraph in ms word, paragraph formatting word, ms word paragraph settings, select paragraph shortcut word, ms word advanced course, paragraph editing tutorial, learnincreation ms word"
     },
 
+     {
+        title: "MS Word Advanced Course – Lesson 3: Cut, Copy and Paste",
+        url: "cut-copy-paste.html",
+        description: "Master Cut, Copy, and Paste in MS Word with keyboard shortcuts and ribbon methods. Lesson 3 of the Advanced Word Course by LearnInCreation.",
+        keywords: "cut copy paste in ms word, ms word shortcut keys, ctrl x ctrl c ctrl v word, copy paste tutorial word, ms word advanced course, clipboard in ms word"
+    },
 
 
     // =====================================================
