@@ -534,6 +534,13 @@ const pages = [
         keywords: "paragraph spacing in ms word, space before after paragraph word, ms word formatting tutorial, paragraph settings ms word, ms word advanced course"
     },
 
+      {
+        title: "MS Word Advanced Course – Lesson 5: What is Line Spacing",
+        url: "line-spacing.html",
+        description: "Understand line spacing in MS Word — single, double, and custom spacing explained. Lesson 5 of the Advanced Word Course by LearnInCreation.",
+        keywords: "line spacing in ms word, double space in word, single line spacing word, what is line spacing, ms word advanced course, line spacing tutorial"
+    },
+
 
     // =====================================================
     // MICROSOFT EXCEL
