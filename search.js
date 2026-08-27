@@ -527,6 +527,13 @@ const pages = [
         keywords: "cut copy paste in ms word, ms word shortcut keys, ctrl x ctrl c ctrl v word, copy paste tutorial word, ms word advanced course, clipboard in ms word"
     },
 
+       {
+        title: "MS Word Advanced Course – Lesson 4: Paragraph Spacing",
+        url: "paragraph-spacing.html",
+        description: "Learn how to adjust space before and after paragraphs in MS Word for cleaner document formatting. Lesson 4 of the Advanced Word Course.",
+        keywords: "paragraph spacing in ms word, space before after paragraph word, ms word formatting tutorial, paragraph settings ms word, ms word advanced course"
+    },
+
 
     // =====================================================
     // MICROSOFT EXCEL
