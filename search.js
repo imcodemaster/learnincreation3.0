@@ -506,7 +506,13 @@ const pages = [
         keywords: "Microsoft Word advanced advanced Word course MS Word advanced styles templates mail merge"
     },
 
-    
+     {
+        title: "MS Word Advanced Course – Lesson 1: Introduction to MS Word",
+        url: "msword-advance-1.html",
+        description: "Start the MS Word Advanced Course with Lesson 1: Introduction to MS Word. Learn word processing, WYSIWYG & Microsoft Word basics — free at LearnInCreation.",
+        keywords: "MS Word Advanced Course, Introduction to MS Word, What is MS Word, Word Processing Software, WYSIWYG in MS Word, Microsoft Word Tutorial, Learn MS Word Online, MS Word for Beginners, MS Word Lesson 1, LearnInCreation MS Word Course"
+    },
+
     {
         title: "MS Word Advanced Course – Lesson 2: Working with Paragraph",
         url: "working-with-paragraph.html",
