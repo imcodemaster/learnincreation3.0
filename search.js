@@ -739,42 +739,43 @@ function escapeRegExp(text) {
 ===================================================== */
 
 function highlightText(text, query) {
+    if (!query || !query.trim()) {
+        return escapeHTML(text);
+    }
 
-    let result =
-        escapeHTML(text);
+    const escapedText = escapeHTML(text);
 
-    const words =
-        query
-            .toLowerCase()
-            .split(/\s+/)
-            .filter(Boolean);
+    const words = query
+        .trim()
+        .split(/\s+/)
+        .filter(Boolean);
 
+    const regex = new RegExp(
+        "(" + words.map(escapeRegExp).join("|") + ")",
+        "gi"
+    );
 
-    words.forEach(word => {
-
-        const regex =
-            new RegExp(
-                "(" +
-                escapeRegExp(
-                    escapeHTML(word)
-                ) +
-                ")",
-                "gi"
-            );
-
-
-        result =
-            result.replace(
-                regex,
-                '<span class="highlight">$1</span>'
-            );
-
-    });
-
-
-    return result;
+    return escapedText.replace(
+        regex,
+        '<span class="highlight">$1</span>'
+    );
 }
 
+function escapeRegExp(text) {
+    return text.replace(
+        /[.*+?^${}()|[\]\\]/g,
+        "\\$&"
+    );
+}
+
+function escapeHTML(text) {
+    return String(text)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
 
 /* =====================================================
    GET SEARCH SCORE
