@@ -506,6 +506,15 @@ const pages = [
         keywords: "Microsoft Word advanced advanced Word course MS Word advanced styles templates mail merge"
     },
 
+    
+    {
+        title: "MS Word Advanced Course – Lesson 2: Working with Paragraph",
+        url: "working-with-paragraph.html",
+        description: "Learn how to select, format, and manage paragraphs in MS Word. Lesson 2 of the Advanced Word Course covers paragraph basics with practical examples.",
+        keywords: "working with paragraph in ms word, paragraph formatting word, ms word paragraph settings, select paragraph shortcut word, ms word advanced course, paragraph editing tutorial, learnincreation ms word"
+    },
+
+
 
     // =====================================================
     // MICROSOFT EXCEL
