@@ -548,6 +548,43 @@ const pages = [
         keywords: "first line indent in ms word, indent first line paragraph, ms word indent tutorial, paragraph indent word, ms word advanced course"
     },
 
+      {
+        title: " MS Word Advanced Course – Lesson 7: Header and Footer",
+        url: "header-and-footer.html",
+        description: "Learn how to insert and customize Headers and Footers in MS Word documents. Lesson 7 of the Advanced Word Course by LearnInCreation.",
+        keywords: "header and footer in ms word, insert header footer word, ms word header tutorial, footer settings word, ms word advanced course"
+    },
+
+
+      {
+        title: " MS Word Advanced Course – Lesson 8: Remove Header and Footer",
+        url: "remove-header-footer.html",
+        description: "Step-by-step guide to remove Header and Footer from an MS Word document without affecting other pages. Lesson 8 of the Advanced Word Course.",
+        keywords: "remove header footer ms word, delete header word, how to remove footer in word, ms word tutorial, ms word advanced course"
+    },
+
+    
+      {
+        title: " MS Word Advanced Course – Lesson 9: The Designing Tab",
+        url: "desiging-tab.html",
+        description: "Explore the Design tab in MS Word — themes, watermarks, page borders, and colors explained. Lesson 9 of the Advanced Word Course by LearnInCreation.",
+        keywords: "design tab in ms word, ms word themes, watermark in word, page border ms word, ms word advanced course, design ribbon word"
+    },
+
+    {
+        title: " MS Word Advanced Course – Lesson 10: Show and Hide",
+        url: "show-and-hide.html",
+        description: "Learn the Show/Hide formatting marks feature in MS Word to view paragraph marks, spaces, and tabs. Lesson 10 of the Advanced Word Course.",
+        keywords: "show hide in ms word, formatting marks word, paragraph mark symbol word, show hide button ms word, ms word advanced course"
+    },
+
+    {
+        title: " MS Word Advanced Course – Lesson 11: Insert Date and Time",
+        url: "insert-date-and-time.html",
+        description: "Learn how to insert an auto-updating Date and Time field into your MS Word document. Lesson 11 of the Advanced Word Course by LearnInCreation.",
+        keywords: "insert date time in ms word, auto update date word, date and time field word, ms word tutorial, ms word advanced course"
+    },
+
     // =====================================================
     // MICROSOFT EXCEL
     // =====================================================
