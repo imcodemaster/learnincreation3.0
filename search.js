@@ -585,6 +585,27 @@ const pages = [
         keywords: "insert date time in ms word, auto update date word, date and time field word, ms word tutorial, ms word advanced course"
     },
 
+    {
+        title: " MS Word Advanced Course – Lesson 12: Insert Page Number",
+        url: "insert-page-number.html",
+        description: "Step-by-step guide to insert and format page numbers in MS Word documents. Lesson 12 of the Advanced Word Course by LearnInCreation.",
+        keywords: "insert page number in ms word, page numbering word, add page number word document, ms word tutorial, ms word advanced course"
+    },
+ 
+    {
+        title: " MS Word Advanced Course – Lesson 13: Indent Marker",
+        url: "indent-marker.html",
+        description: "Understand the four indent markers on the MS Word ruler — First Line, Hanging, Left, and Right indent. Lesson 13 of the Advanced Word Course.",
+        keywords: "indent marker in ms word, ms word ruler indent, hanging indent marker, first line indent marker, ms word advanced course"
+    },
+ 
+    
+
+
+
+
+
+
     // =====================================================
     // MICROSOFT EXCEL
     // =====================================================
