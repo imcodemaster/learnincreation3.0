@@ -598,8 +598,27 @@ const pages = [
         description: "Understand the four indent markers on the MS Word ruler — First Line, Hanging, Left, and Right indent. Lesson 13 of the Advanced Word Course.",
         keywords: "indent marker in ms word, ms word ruler indent, hanging indent marker, first line indent marker, ms word advanced course"
     },
- 
-    
+
+    {
+        title: " MS Word Advanced Course – Lesson 14: Tabs in MS Word",
+        url: "tab.html",
+        description: "Learn all tab stop types in MS Word — Left, Center, Right, Decimal, and Bar tab — with examples. Lesson 14 of the Advanced Word Course.",
+        keywords: "tabs in ms word, tab stops word, left center right decimal tab, bar tab ms word, ms word advanced course, tab key function word"
+    },
+
+    {
+        title: " MS Word Advanced Course – Lesson 15: Text Alignment",
+        url: "text-alignment.html",
+        description: "Learn Left, Center, Right, and Justify text alignment in MS Word with shortcut keys. Lesson 15 of the Advanced Word Course by LearnInCreation.",
+        keywords: "text alignment in ms word, justify text word, ctrl l ctrl e ctrl r ctrl j, align text ms word, ms word advanced course"
+    },
+
+    {
+        title: " MS Word Advanced Course – Lesson 16: Drawing Shapes in Word",
+        url: "drawing-shapes-in-word.html",
+        description: "Learn how to insert and format shapes in MS Word using the Shapes tool. Lesson 16 of the Advanced Word Course by LearnInCreation.",
+        keywords: "drawing shapes in ms word, insert shapes word, shapes tool ms word, draw shapes in word document, ms word advanced course"
+    },  
 
 
 
