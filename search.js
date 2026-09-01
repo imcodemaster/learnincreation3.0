@@ -620,9 +620,40 @@ const pages = [
         keywords: "drawing shapes in ms word, insert shapes word, shapes tool ms word, draw shapes in word document, ms word advanced course"
     },  
 
+    {
+        title: " MS Word Advanced Course – Lesson 17: Find and Replace",
+        url: "find-and-replace.html",
+        description: "Master the Find and Replace tool in MS Word to quickly locate and update text. Lesson 17 of the Advanced Word Course by LearnInCreation.",
+        keywords: "find and replace in ms word, ctrl h ms word, ctrl f ms word, replace text in word document, ms word advanced course"
+    }, 
 
+    {
+        title: " MS Word Advanced Course – Lesson 18: Font Size and Style",
+        url: "font-size-style.html",
+        description: " Learn how to change font size, style, and formatting in MS Word for better document presentation. Lesson 18 of the Advanced Word Course.",
+        keywords: "font size and style in ms word, change font word, font formatting ms word, font group ms word, ms word advanced course"
+    }, 
 
+       {
+        title: "MS Word Advanced Course – Lesson 19: Subscript and Superscript",
+        url: "subscript-and-superscript.html",
+        description: " Learn how to add superscript and subscript text in MS Word with shortcuts, like 10th and H2O. Lesson 19 of the Advanced Word Course.",
+        keywords: "superscript and subscript in ms word, ctrl shift plus subscript, ctrl equal superscript, x2 x2 button word, ms word advanced course"
+    }, 
 
+    {
+        title: "MS Word Advanced Course – Lesson 20: Strike Through",
+        url: "strike-through.html",
+        description: " Learn how to apply Strikethrough formatting to text in MS Word to show edits or deletions. Lesson 20 of the Advanced Word Course.",
+        keywords: "strikethrough in ms word, strike through text word, cross out text word, font group strikethrough, ms word advanced course"
+    }, 
+
+    {
+        title: "MS Word Advanced Course – Lesson 21: Use Spell Checker",
+        url: "use-spell-checker.html",
+        description: " Learn how to use the Spelling and Grammar checker in MS Word to fix errors automatically. Lesson 21 of the Advanced Word Course.",
+        keywords: "spell checker in ms word, spelling and grammar word, f7 spell check word, fix spelling errors word, ms word advanced course"
+    }, 
 
 
     // =====================================================
