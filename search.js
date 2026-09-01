@@ -653,8 +653,42 @@ const pages = [
         url: "use-spell-checker.html",
         description: " Learn how to use the Spelling and Grammar checker in MS Word to fix errors automatically. Lesson 21 of the Advanced Word Course.",
         keywords: "spell checker in ms word, spelling and grammar word, f7 spell check word, fix spelling errors word, ms word advanced course"
-    }, 
+    },
+    
+    {
+        title: "MS Word Advanced Course – Lesson 22: Textbox and WordArt",
+        url: "textbox-and-wordart.html",
+        description: "Learn how to insert a Text Box and stylize text using WordArt in MS Word. Lesson 22 of the Advanced Word Course by LearnInCreation.",
+        keywords: "textbox and wordart in ms word, insert text box word, wordart tool ms word, insert tab text group, ms word advanced course"
+    },
 
+    {
+        title: " MS Word Advanced Course – Lesson 23: Hyperlink in Word Document",
+        url: "hyperlink-in-word-document.html",
+        description: "Learn how to insert clickable hyperlinks in MS Word using Ctrl+K and the Links group. Lesson 23 of the Advanced Word Course by LearnInCreation.",
+        keywords: "hyperlink in ms word, insert hyperlink word, ctrl k ms word, links group ms word, ms word advanced course"
+    },
+
+   {
+        title: " MS Word Advanced Course – Lesson 24: Add Email in Document",
+        url: "add-email-in-document.html",
+        description: "Learn how to insert a clickable email address hyperlink in an MS Word document. Lesson 24 of the Advanced Word Course by LearnInCreation.",
+        keywords: " add email in ms word document, insert email hyperlink word, mailto link word, email address in word, ms word advanced course"
+    },
+   
+    {
+        title: " MS Word Advanced Course – Lesson 25: Indent and Tab",
+        url: "indent-and-tab.html",
+        description: "A combined guide to using Indent markers and Tab stops together in MS Word for precise formatting. Lesson 25 of the Advanced Word Course.",
+        keywords: " indent and tab in ms word, indent tab combined tutorial, ms word ruler settings, tab and indent marker word, ms word advanced course"
+    },
+
+    {
+        title: " MS Word Advanced Course – Lesson 26: Smart Art",
+        url: "smart-art.html",
+        description: "Learn how to insert and customize SmartArt graphics in MS Word to create diagrams and flowcharts. Lesson 26 of the Advanced Word Course.",
+        keywords: " smartart in ms word, insert smartart word, smartart graphics tutorial, ms word diagrams, ms word advanced course"
+    },
 
     // =====================================================
     // MICROSOFT EXCEL
